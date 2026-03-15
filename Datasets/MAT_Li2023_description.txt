@@ -1,0 +1,21 @@
+The concrete dataset
+consists of ordinary Portland silicate Cement (OPC),
+water, coarse aggregates, and fine aggregates. In this case,
+the coarse aggregates were given apart from the content,
+the type of aggregates, and the different particle size values
+and their percentage. Since the OPC was used for all the
+data adopted in this study, only the cement grades were
+distinguished from the different cements in the database.
+There were five types of concrete coarse aggregates, that is,
+limestone, shale, granite, basalt, and griotte, which were
+sequentially numbered as 1, 2, 3, 4, and 5 respectively using
+the heat code method and considered as input variables. In
+addition, coarse aggregates of the same type with different
+specific gravities were included in the database. These
+CCSs were obtained by performing a typical compressive
+test on 150 mm cubic specimens with a curing age of 28
+days, and detailed information can be retrieved from the
+references. 
+
+
+https://figshare.com/articles/dataset/Appendix_A_docx/21431478

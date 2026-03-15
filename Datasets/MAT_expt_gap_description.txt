@@ -1,0 +1,16 @@
+https://ml.materialsproject.org/projects/matbench_expt_gap
+
+
+Le dataset original contient la formule de composition en feature et la bande interdite expérimentale.
+
+En l'état ce dataset n'est pas exploitable en machine learning car la formule de composition doit être transormé en un vecteur numérique qui représente ces différentes features (la composition en élément chimique, la structure de la composition dans l'espace,...)
+
+Nous avons donc "feturizé" toutes les formules par un méthode classique en science des matériaux par Meredig et. al.
+
+Features:
+Atomic fraction of each of the first 103 elements, in order of atomic number. 17 statistics of elemental properties;
+Mean atomic weight of constituent elements Mean periodic table row and column number Mean and range of atomic number Mean and range of atomic radius Mean and range of electronegativity Mean number of valence electrons in each orbital Fraction of total valence electrons in each orbital
+
+Donc au final une composition est un espace avec énormément de dimensions.
+
+  

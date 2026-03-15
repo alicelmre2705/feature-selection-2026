@@ -1,0 +1,27 @@
+Concrete is the most important material in civil engineering. 
+The concrete compressive strength is a highly nonlinear function of age and ingredients.
+
+Dataset Information
+Additional Information
+
+Number of instances 	1030
+Number of Attributes	9
+Attribute breakdown	8 quantitative input variables, and 1 quantitative output variable
+Missing Attribute Values	None 
+
+
+
+Variables Table
+Variable Name			Role		Type			Units		Missing Values
+Cement				Feature	Continuous		kg/m^3	no
+Blast Furnace Slag		Feature	Integer		kg/m^3	no
+Fly Ash				Feature	Continuous		kg/m^3	no
+Water					Feature	Continuous		kg/m^3	no
+Superplasticizer			Feature	Continuous		kg/m^3	no
+Coarse Aggregate			Feature	Continuous		kg/m^3	no
+Fine Aggregate			Feature	Continuous		kg/m^3	no
+Age					Feature	Integer		day		no
+Concrete compressive strength	Target	Continuous		MPa		no
+
+
+https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
