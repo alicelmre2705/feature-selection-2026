@@ -9,7 +9,7 @@ CentraleSupélec — Pôle Projet IA & ML | En collaboration avec le CEA-LIST
 
 Le CEA-LIST a développé un algorithme d'aide à la décision pour l'optimisation expérimentale en science des matériaux, reposant sur un **clustering flou** (Fuzzy C-Means) couplé à un système d'inférence de Sugeno. L'algorithme produit des règles interprétables, mais leur lisibilité se dégrade lorsque le nombre de variables est élevé.
 
-Ce projet réalise un **benchmark comparatif de 8 méthodes de sélection de variables** appliquées en amont de 3 algorithmes de clustering, sur 10 jeux de données (4 matériaux, 6 real-world UCI) — soit **240 expériences** au total.
+Ce projet réalise un **benchmark comparatif de 8 méthodes de sélection de variables + 1 baseline (sans sélection)** appliquées en amont de 3 algorithmes de clustering, sur 10 jeux de données (4 matériaux, 6 real-world UCI) — soit **270 expériences** au total.
 
 L'objectif est d'identifier les méthodes de sélection les plus adaptées pour réduire la dimensionnalité tout en préservant la qualité du clustering et l'interprétabilité des règles.
 
