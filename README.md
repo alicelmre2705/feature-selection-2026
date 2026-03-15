@@ -1,6 +1,4 @@
-# Towards an Interpretable Fuzzy Approach to Experimental Design
-
-## Feature Selection for Fuzzy Clustering — Comparative Benchmark
+# Feature Selection for Fuzzy Clustering — Comparative Benchmark
 
 **Auteur : Alice Lemaire**
 CentraleSupélec — Pôle Projet IA & ML | En collaboration avec le CEA-LIST
