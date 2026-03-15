@@ -3,56 +3,55 @@
 ## Feature Selection for Fuzzy Clustering — Comparative Benchmark
 
 **Auteur : Alice Lemaire**
-CentraleSupelec — Pole Projet IA & ML | En collaboration avec le CEA-LIST
+CentraleSupélec — Pôle Projet IA & ML | En collaboration avec le CEA-LIST
 
 ---
 
 ## Contexte
 
-Le CEA-LIST a developpe un algorithme d'aide a la decision pour l'optimisation experimentale en science des materiaux, reposant sur un **clustering flou** (Fuzzy C-Means) couple a un systeme d'inference de Sugeno. L'algorithme produit des regles interpretables, mais leur lisibilite se degrade lorsque le nombre de variables est eleve.
+Le CEA-LIST a développé un algorithme d'aide à la décision pour l'optimisation expérimentale en science des matériaux, reposant sur un **clustering flou** (Fuzzy C-Means) couplé à un système d'inférence de Sugeno. L'algorithme produit des règles interprétables, mais leur lisibilité se dégrade lorsque le nombre de variables est élevé.
 
-Ce projet realise un **benchmark comparatif de 9 methodes de selection de variables** appliquees en amont de 3 algorithmes de clustering flou, sur 10 jeux de donnees (4 materiaux, 6 real-world UCI) — soit **270 experiences** au total.
+Ce projet réalise un **benchmark comparatif de 8 méthodes de sélection de variables** appliquées en amont de 3 algorithmes de clustering, sur 10 jeux de données (4 matériaux, 6 real-world UCI) — soit **240 expériences** au total.
 
-L'objectif est d'identifier les methodes de selection les plus adaptees pour reduire la dimensionnalite tout en preservant la qualite du clustering et l'interpretabilite des regles.
+L'objectif est d'identifier les méthodes de sélection les plus adaptées pour réduire la dimensionnalité tout en préservant la qualité du clustering et l'interprétabilité des règles.
+
+Le benchmark complet est implémenté dans le notebook **`CEA_LIST_Benchmark_FINAL_1.ipynb`**.
 
 ## Contenu du repository
 
 | Fichier / Dossier | Description |
 |---|---|
-| `01_Presentation.pdf` | Presentation du projet (CentraleSupelec / CEA-LIST) |
-| `02_CEA_Algorithme_Flou_EN.pdf` | Article de reference : *Towards an Interpretable Fuzzy Approach to Experimental Design* (Rousselle, Poli & Ben Abdallah, 2024) |
 | `CEA_LIST_Benchmark_FINAL_1.ipynb` | Notebook Python du benchmark complet |
-| `CEA_LIST_Benchmark_FINAL_1.pdf` | Export PDF du notebook |
-| `figures/` | 7 figures de synthese (heatmaps, classements, compromis) |
-| `Datasets/` | 10 jeux de donnees CSV + descriptions TXT |
+| `01_Presentation.pdf` | Présentation du projet (CentraleSupélec / CEA-LIST) |
+| `02_CEA_Algorithme_Flou_EN.pdf` | Article de référence : *Towards an Interpretable Fuzzy Approach to Experimental Design* (Rousselle, Poli & Ben Abdallah, 2024) |
+| `figures/` | 7 figures de synthèse (heatmaps, classements, compromis) |
+| `Datasets/` | 10 jeux de données CSV + descriptions TXT |
 
-## Methodes de selection comparees
+## Méthodes de sélection comparées
 
 - Variance Threshold
-- Correlation Filter
-- Mutual Information
+- Corrélation
 - Laplacian Score
-- PCA (composantes principales)
-- Random Forest Importance
-- LASSO (L1)
-- Recursive Feature Elimination (RFE)
-- Boruta
+- SPEC (Spectral Feature Selection)
+- Sparse K-Means
+- MCFS (Multi-Cluster Feature Selection)
+- FWKM (Feature Weighting K-Means)
+- PCA (Analyse en Composantes Principales)
 
 ## Algorithmes de clustering
 
+- K-Means
+- Hierarchical Ward
 - Fuzzy C-Means (FCM)
-- Gustafson-Kessel (GK)
-- Fuzzy K-Medoids
 
-## Reference
+## Métriques d'évaluation
+
+- Silhouette Score
+- Davies-Bouldin Index
+- Calinski-Harabasz Index
+- ARI (Adjusted Rand Index)
+- NMI (Normalized Mutual Information)
+
+## Référence
 
 > C. Rousselle, J.-P. Poli & L. Ben Abdallah, *Towards an Interpretable Fuzzy Approach to Experimental Design*, 2024.
-
-## Correspondants CEA-LIST
-
-- Camille Fouillard
-- Raphael Belloum
-
-## Licence
-
-Projet academique — CentraleSupelec / CEA-LIST.
