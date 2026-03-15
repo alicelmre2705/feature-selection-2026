@@ -13,15 +13,15 @@ Ce projet réalise un **benchmark comparatif de 8 méthodes de sélection de var
 
 L'objectif est d'identifier les méthodes de sélection les plus adaptées pour réduire la dimensionnalité tout en préservant la qualité du clustering et l'interprétabilité des règles.
 
-Le benchmark complet est implémenté dans le notebook **`CEA_LIST_Benchmark_FINAL_1.ipynb`**.
+Le benchmark complet est implémenté dans le notebook **`benchmark_feature_selection.ipynb`**.
 
 ## Contenu du repository
 
 | Fichier / Dossier | Description |
 |---|---|
-| `CEA_LIST_Benchmark_FINAL_1.ipynb` | Notebook Python du benchmark complet |
-| `01_Presentation.pdf` | Présentation du projet (CentraleSupélec / CEA-LIST) |
-| `02_CEA_Algorithme_Flou_EN.pdf` | Article de référence : *Towards an Interpretable Fuzzy Approach to Experimental Design* (Rousselle, Poli & Ben Abdallah, 2024) |
+| `benchmark_feature_selection.ipynb` | Notebook Python du benchmark complet |
+| `presentation_projet.pdf` | Présentation du projet (CentraleSupélec / CEA-LIST) |
+| `article_reference_Rousselle2024.pdf` | Article de référence : *Towards an Interpretable Fuzzy Approach to Experimental Design* (Rousselle, Poli & Ben Abdallah, 2024) |
 | `figures/` | 7 figures de synthèse (heatmaps, classements, compromis) |
 | `Datasets/` | 10 jeux de données CSV + descriptions TXT |
 
